@@ -25,7 +25,7 @@ OpenStack locally from both diskimage-builder elements and
 openstack-tripleo-image-elements.
 
 %prep
-%setup -q
+%setup -q -n instack-%{upstream_version}
 
 %build
 %{__python2} setup.py build
